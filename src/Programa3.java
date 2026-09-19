@@ -6,9 +6,10 @@ public class Practica3 {
         int segundos = sc.nextInt();
         sc.close();
         int horas = segundos / 3600;
-        int minutos = (segundos / 60);
+        int minutos = (segundos % 3600) / 60;
+        int segundosRestantes = segundos % 60;
         System.out.println("Horas: " + horas);
         System.out.println("Minutos: " + minutos);
-        System.out.println("Segundos: " + segundos);
+        System.out.println("Segundos: " + segundosRestantes);
     }
 }
