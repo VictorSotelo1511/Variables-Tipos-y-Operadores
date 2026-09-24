@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Practica3 {
+public class ConvertidorTiempo {
     public static void main(String [] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingresa los segundos: ");
